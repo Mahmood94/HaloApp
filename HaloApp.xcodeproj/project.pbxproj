@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F0076AB7215B2C4300E4CF8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0076AB6215B2C4300E4CF8B /* AppDelegate.swift */; };
+		F0076AB9215B2C4300E4CF8B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0076AB8215B2C4300E4CF8B /* ViewController.swift */; };
+		F0076ABC215B2C4300E4CF8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0076ABA215B2C4300E4CF8B /* Main.storyboard */; };
+		F0076ABE215B2C4400E4CF8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0076ABD215B2C4400E4CF8B /* Assets.xcassets */; };
+		F0076AC1215B2C4400E4CF8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0076ABF215B2C4400E4CF8B /* LaunchScreen.storyboard */; };
+		F0076ACC215B2C4400E4CF8B /* HaloAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0076ACB215B2C4400E4CF8B /* HaloAppTests.swift */; };
+		F0076AD7215B2C4400E4CF8B /* HaloAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0076AD6215B2C4400E4CF8B /* HaloAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F0076AC8215B2C4400E4CF8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0076AAB215B2C4300E4CF8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0076AB2215B2C4300E4CF8B;
+			remoteInfo = HaloApp;
+		};
+		F0076AD3215B2C4400E4CF8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0076AAB215B2C4300E4CF8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0076AB2215B2C4300E4CF8B;
+			remoteInfo = HaloApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F0076AB3215B2C4300E4CF8B /* HaloApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HaloApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0076AB6215B2C4300E4CF8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F0076AB8215B2C4300E4CF8B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F0076ABB215B2C4300E4CF8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F0076ABD215B2C4400E4CF8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F0076AC0215B2C4400E4CF8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F0076AC2215B2C4400E4CF8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0076AC7215B2C4400E4CF8B /* HaloAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HaloAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0076ACB215B2C4400E4CF8B /* HaloAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaloAppTests.swift; sourceTree = "<group>"; };
+		F0076ACD215B2C4400E4CF8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0076AD2215B2C4400E4CF8B /* HaloAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HaloAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0076AD6215B2C4400E4CF8B /* HaloAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaloAppUITests.swift; sourceTree = "<group>"; };
+		F0076AD8215B2C4400E4CF8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F0076AB0215B2C4300E4CF8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0076AC4215B2C4400E4CF8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0076ACF215B2C4400E4CF8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F0076AAA215B2C4300E4CF8B = {
+			isa = PBXGroup;
+			children = (
+				F0076AB5215B2C4300E4CF8B /* HaloApp */,
+				F0076ACA215B2C4400E4CF8B /* HaloAppTests */,
+				F0076AD5215B2C4400E4CF8B /* HaloAppUITests */,
+				F0076AB4215B2C4300E4CF8B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F0076AB4215B2C4300E4CF8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0076AB3215B2C4300E4CF8B /* HaloApp.app */,
+				F0076AC7215B2C4400E4CF8B /* HaloAppTests.xctest */,
+				F0076AD2215B2C4400E4CF8B /* HaloAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0076AB5215B2C4300E4CF8B /* HaloApp */ = {
+			isa = PBXGroup;
+			children = (
+				F0076AB6215B2C4300E4CF8B /* AppDelegate.swift */,
+				F0076AB8215B2C4300E4CF8B /* ViewController.swift */,
+				F0076ABA215B2C4300E4CF8B /* Main.storyboard */,
+				F0076ABD215B2C4400E4CF8B /* Assets.xcassets */,
+				F0076ABF215B2C4400E4CF8B /* LaunchScreen.storyboard */,
+				F0076AC2215B2C4400E4CF8B /* Info.plist */,
+			);
+			path = HaloApp;
+			sourceTree = "<group>";
+		};
+		F0076ACA215B2C4400E4CF8B /* HaloAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				F0076ACB215B2C4400E4CF8B /* HaloAppTests.swift */,
+				F0076ACD215B2C4400E4CF8B /* Info.plist */,
+			);
+			path = HaloAppTests;
+			sourceTree = "<group>";
+		};
+		F0076AD5215B2C4400E4CF8B /* HaloAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F0076AD6215B2C4400E4CF8B /* HaloAppUITests.swift */,
+				F0076AD8215B2C4400E4CF8B /* Info.plist */,
+			);
+			path = HaloAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F0076AB2215B2C4300E4CF8B /* HaloApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0076ADB215B2C4400E4CF8B /* Build configuration list for PBXNativeTarget "HaloApp" */;
+			buildPhases = (
+				F0076AAF215B2C4300E4CF8B /* Sources */,
+				F0076AB0215B2C4300E4CF8B /* Frameworks */,
+				F0076AB1215B2C4300E4CF8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HaloApp;
+			productName = HaloApp;
+			productReference = F0076AB3215B2C4300E4CF8B /* HaloApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F0076AC6215B2C4400E4CF8B /* HaloAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0076ADE215B2C4400E4CF8B /* Build configuration list for PBXNativeTarget "HaloAppTests" */;
+			buildPhases = (
+				F0076AC3215B2C4400E4CF8B /* Sources */,
+				F0076AC4215B2C4400E4CF8B /* Frameworks */,
+				F0076AC5215B2C4400E4CF8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0076AC9215B2C4400E4CF8B /* PBXTargetDependency */,
+			);
+			name = HaloAppTests;
+			productName = HaloAppTests;
+			productReference = F0076AC7215B2C4400E4CF8B /* HaloAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F0076AD1215B2C4400E4CF8B /* HaloAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0076AE1215B2C4400E4CF8B /* Build configuration list for PBXNativeTarget "HaloAppUITests" */;
+			buildPhases = (
+				F0076ACE215B2C4400E4CF8B /* Sources */,
+				F0076ACF215B2C4400E4CF8B /* Frameworks */,
+				F0076AD0215B2C4400E4CF8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0076AD4215B2C4400E4CF8B /* PBXTargetDependency */,
+			);
+			name = HaloAppUITests;
+			productName = HaloAppUITests;
+			productReference = F0076AD2215B2C4400E4CF8B /* HaloAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0076AAB215B2C4300E4CF8B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Mahmood Al-haddad";
+				TargetAttributes = {
+					F0076AB2215B2C4300E4CF8B = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					F0076AC6215B2C4400E4CF8B = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = F0076AB2215B2C4300E4CF8B;
+					};
+					F0076AD1215B2C4400E4CF8B = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = F0076AB2215B2C4300E4CF8B;
+					};
+				};
+			};
+			buildConfigurationList = F0076AAE215B2C4300E4CF8B /* Build configuration list for PBXProject "HaloApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F0076AAA215B2C4300E4CF8B;
+			productRefGroup = F0076AB4215B2C4300E4CF8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0076AB2215B2C4300E4CF8B /* HaloApp */,
+				F0076AC6215B2C4400E4CF8B /* HaloAppTests */,
+				F0076AD1215B2C4400E4CF8B /* HaloAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F0076AB1215B2C4300E4CF8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0076AC1215B2C4400E4CF8B /* LaunchScreen.storyboard in Resources */,
+				F0076ABE215B2C4400E4CF8B /* Assets.xcassets in Resources */,
+				F0076ABC215B2C4300E4CF8B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0076AC5215B2C4400E4CF8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0076AD0215B2C4400E4CF8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0076AAF215B2C4300E4CF8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0076AB9215B2C4300E4CF8B /* ViewController.swift in Sources */,
+				F0076AB7215B2C4300E4CF8B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0076AC3215B2C4400E4CF8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0076ACC215B2C4400E4CF8B /* HaloAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0076ACE215B2C4400E4CF8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0076AD7215B2C4400E4CF8B /* HaloAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F0076AC9215B2C4400E4CF8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0076AB2215B2C4300E4CF8B /* HaloApp */;
+			targetProxy = F0076AC8215B2C4400E4CF8B /* PBXContainerItemProxy */;
+		};
+		F0076AD4215B2C4400E4CF8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0076AB2215B2C4300E4CF8B /* HaloApp */;
+			targetProxy = F0076AD3215B2C4400E4CF8B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F0076ABA215B2C4300E4CF8B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0076ABB215B2C4300E4CF8B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F0076ABF215B2C4400E4CF8B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0076AC0215B2C4400E4CF8B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F0076AD9215B2C4400E4CF8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F0076ADA215B2C4400E4CF8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F0076ADC215B2C4400E4CF8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F2CTZMZ6BW;
+				INFOPLIST_FILE = HaloApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bestapp.HaloApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F0076ADD215B2C4400E4CF8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F2CTZMZ6BW;
+				INFOPLIST_FILE = HaloApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bestapp.HaloApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F0076ADF215B2C4400E4CF8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F2CTZMZ6BW;
+				INFOPLIST_FILE = HaloAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bestapp.HaloAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HaloApp.app/HaloApp";
+			};
+			name = Debug;
+		};
+		F0076AE0215B2C4400E4CF8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F2CTZMZ6BW;
+				INFOPLIST_FILE = HaloAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bestapp.HaloAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HaloApp.app/HaloApp";
+			};
+			name = Release;
+		};
+		F0076AE2215B2C4400E4CF8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F2CTZMZ6BW;
+				INFOPLIST_FILE = HaloAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bestapp.HaloAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HaloApp;
+			};
+			name = Debug;
+		};
+		F0076AE3215B2C4400E4CF8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F2CTZMZ6BW;
+				INFOPLIST_FILE = HaloAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bestapp.HaloAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HaloApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0076AAE215B2C4300E4CF8B /* Build configuration list for PBXProject "HaloApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0076AD9215B2C4400E4CF8B /* Debug */,
+				F0076ADA215B2C4400E4CF8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0076ADB215B2C4400E4CF8B /* Build configuration list for PBXNativeTarget "HaloApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0076ADC215B2C4400E4CF8B /* Debug */,
+				F0076ADD215B2C4400E4CF8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0076ADE215B2C4400E4CF8B /* Build configuration list for PBXNativeTarget "HaloAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0076ADF215B2C4400E4CF8B /* Debug */,
+				F0076AE0215B2C4400E4CF8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0076AE1215B2C4400E4CF8B /* Build configuration list for PBXNativeTarget "HaloAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0076AE2215B2C4400E4CF8B /* Debug */,
+				F0076AE3215B2C4400E4CF8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F0076AAB215B2C4300E4CF8B /* Project object */;
+}
