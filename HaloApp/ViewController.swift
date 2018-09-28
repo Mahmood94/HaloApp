@@ -7,14 +7,16 @@
 //
 
 import UIKit
+import Kingfisher
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var imageView: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        let url = URL(string: "https://picsum.photos/200/300/?random")
+        imageView.kf.setImage(with: url)
+        imageView.backgroundColor = UIColor.red				
     }
 
-
 }
-

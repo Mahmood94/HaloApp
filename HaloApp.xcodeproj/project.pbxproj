@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		004C75D807414717AE851C3A /* Pods_HaloAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19D1121135962104FDEA8A10 /* Pods_HaloAppTests.framework */; };
+		B577CDD4C9E5703B0AB1FDED /* Pods_HaloAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F6D7EEC56E83576F9AA88FC /* Pods_HaloAppUITests.framework */; };
 		F0076AB7215B2C4300E4CF8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0076AB6215B2C4300E4CF8B /* AppDelegate.swift */; };
 		F0076AB9215B2C4300E4CF8B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0076AB8215B2C4300E4CF8B /* ViewController.swift */; };
 		F0076ABC215B2C4300E4CF8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0076ABA215B2C4300E4CF8B /* Main.storyboard */; };
@@ -14,6 +16,7 @@
 		F0076AC1215B2C4400E4CF8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0076ABF215B2C4400E4CF8B /* LaunchScreen.storyboard */; };
 		F0076ACC215B2C4400E4CF8B /* HaloAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0076ACB215B2C4400E4CF8B /* HaloAppTests.swift */; };
 		F0076AD7215B2C4400E4CF8B /* HaloAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0076AD6215B2C4400E4CF8B /* HaloAppUITests.swift */; };
+		FF094C406FAA19E8939EFDE8 /* Pods_HaloApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEE2EE37B14D6CFF843BA2B3 /* Pods_HaloApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E5686196FEDAC6722FD466C /* Pods-HaloAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HaloAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HaloAppTests/Pods-HaloAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		10CFB2B316FB86E940EDEFA8 /* Pods-HaloApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HaloApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-HaloApp/Pods-HaloApp.release.xcconfig"; sourceTree = "<group>"; };
+		19D1121135962104FDEA8A10 /* Pods_HaloAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HaloAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		629A362F957CBAED05FCDDE4 /* Pods-HaloAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HaloAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HaloAppTests/Pods-HaloAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		7E59CC50F9F2DF505E17DA45 /* Pods-HaloAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HaloAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HaloAppUITests/Pods-HaloAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		89965E6F4CBB85C532A8D21B /* Pods-HaloAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HaloAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HaloAppUITests/Pods-HaloAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8F6D7EEC56E83576F9AA88FC /* Pods_HaloAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HaloAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEE2EE37B14D6CFF843BA2B3 /* Pods_HaloApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HaloApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0076AB3215B2C4300E4CF8B /* HaloApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HaloApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0076AB6215B2C4300E4CF8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F0076AB8215B2C4300E4CF8B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,7 @@
 		F0076AD2215B2C4400E4CF8B /* HaloAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HaloAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0076AD6215B2C4400E4CF8B /* HaloAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaloAppUITests.swift; sourceTree = "<group>"; };
 		F0076AD8215B2C4400E4CF8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F47904E59B64C707A5FE9228 /* Pods-HaloApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HaloApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HaloApp/Pods-HaloApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF094C406FAA19E8939EFDE8 /* Pods_HaloApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				004C75D807414717AE851C3A /* Pods_HaloAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B577CDD4C9E5703B0AB1FDED /* Pods_HaloAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		41B1E4DF3A733E2D68DCCED5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DEE2EE37B14D6CFF843BA2B3 /* Pods_HaloApp.framework */,
+				19D1121135962104FDEA8A10 /* Pods_HaloAppTests.framework */,
+				8F6D7EEC56E83576F9AA88FC /* Pods_HaloAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		94007B32263BE6D58A91EE51 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F47904E59B64C707A5FE9228 /* Pods-HaloApp.debug.xcconfig */,
+				10CFB2B316FB86E940EDEFA8 /* Pods-HaloApp.release.xcconfig */,
+				0E5686196FEDAC6722FD466C /* Pods-HaloAppTests.debug.xcconfig */,
+				629A362F957CBAED05FCDDE4 /* Pods-HaloAppTests.release.xcconfig */,
+				7E59CC50F9F2DF505E17DA45 /* Pods-HaloAppUITests.debug.xcconfig */,
+				89965E6F4CBB85C532A8D21B /* Pods-HaloAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F0076AAA215B2C4300E4CF8B = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +119,8 @@
 				F0076ACA215B2C4400E4CF8B /* HaloAppTests */,
 				F0076AD5215B2C4400E4CF8B /* HaloAppUITests */,
 				F0076AB4215B2C4300E4CF8B /* Products */,
+				94007B32263BE6D58A91EE51 /* Pods */,
+				41B1E4DF3A733E2D68DCCED5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F0076ADB215B2C4400E4CF8B /* Build configuration list for PBXNativeTarget "HaloApp" */;
 			buildPhases = (
+				4C54BE86060C95F0ED043EFA /* [CP] Check Pods Manifest.lock */,
+				F0CFC119215DF3B500ADE970 /* SwiftLint */,
 				F0076AAF215B2C4300E4CF8B /* Sources */,
 				F0076AB0215B2C4300E4CF8B /* Frameworks */,
 				F0076AB1215B2C4300E4CF8B /* Resources */,
+				ECEF4AC5972BBB7ED6638F4F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +192,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F0076ADE215B2C4400E4CF8B /* Build configuration list for PBXNativeTarget "HaloAppTests" */;
 			buildPhases = (
+				318D1B96F13C2F897135BD8F /* [CP] Check Pods Manifest.lock */,
 				F0076AC3215B2C4400E4CF8B /* Sources */,
 				F0076AC4215B2C4400E4CF8B /* Frameworks */,
 				F0076AC5215B2C4400E4CF8B /* Resources */,
@@ -167,6 +211,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F0076AE1215B2C4400E4CF8B /* Build configuration list for PBXNativeTarget "HaloAppUITests" */;
 			buildPhases = (
+				93ECA56DC87E0B2F466B4BD6 /* [CP] Check Pods Manifest.lock */,
 				F0076ACE215B2C4400E4CF8B /* Sources */,
 				F0076ACF215B2C4400E4CF8B /* Frameworks */,
 				F0076AD0215B2C4400E4CF8B /* Resources */,
@@ -250,6 +295,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		318D1B96F13C2F897135BD8F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HaloAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C54BE86060C95F0ED043EFA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HaloApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93ECA56DC87E0B2F466B4BD6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HaloAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECEF4AC5972BBB7ED6638F4F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HaloApp/Pods-HaloApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Cartography/Cartography.framework",
+				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/RandomKit/RandomKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/ShiftOperations/ShiftOperations.framework",
+				"${BUILT_PRODUCTS_DIR}/Threadly/Threadly.framework",
+				"${BUILT_PRODUCTS_DIR}/Timepiece/Timepiece.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cartography.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RandomKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ShiftOperations.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Threadly.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Timepiece.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HaloApp/Pods-HaloApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0CFC119215DF3B500ADE970 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F0076AAF215B2C4300E4CF8B /* Sources */ = {
@@ -430,42 +598,52 @@
 		};
 		F0076ADC215B2C4400E4CF8B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F47904E59B64C707A5FE9228 /* Pods-HaloApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				"DEBUG_INFORMATION_FORMAT[sdk=iphoneos*]" = "dwarf-with-dsym";
+				"DEBUG_INFORMATION_FORMAT[sdk=iphonesimulator*]" = dwarf;
 				DEVELOPMENT_TEAM = F2CTZMZ6BW;
 				INFOPLIST_FILE = HaloApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				ONLY_ACTIVE_ARCH = YES;
+				"OTHER_SWIFT_FLAGS[arch=*]" = "-Xfrontend -warn-long-function-bodies=100 -Xfrontend -warn-long-expression-type-checking=100 -Onone";
 				PRODUCT_BUNDLE_IDENTIFIER = bestapp.HaloApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		F0076ADD215B2C4400E4CF8B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10CFB2B316FB86E940EDEFA8 /* Pods-HaloApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F2CTZMZ6BW;
 				INFOPLIST_FILE = HaloApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = bestapp.HaloApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 		F0076ADF215B2C4400E4CF8B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E5686196FEDAC6722FD466C /* Pods-HaloAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +665,7 @@
 		};
 		F0076AE0215B2C4400E4CF8B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 629A362F957CBAED05FCDDE4 /* Pods-HaloAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +687,7 @@
 		};
 		F0076AE2215B2C4400E4CF8B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E59CC50F9F2DF505E17DA45 /* Pods-HaloAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +708,7 @@
 		};
 		F0076AE3215B2C4400E4CF8B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89965E6F4CBB85C532A8D21B /* Pods-HaloAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

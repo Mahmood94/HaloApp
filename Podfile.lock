@@ -1,0 +1,58 @@
+PODS:
+  - Cartography (3.1.0)
+  - ChameleonFramework/Default (2.1.0)
+  - ChameleonFramework/Swift (2.1.0):
+    - ChameleonFramework/Default
+  - Kingfisher (4.10.0)
+  - RandomKit (5.2.3):
+    - ShiftOperations (~> 1.0.2)
+    - Threadly (~> 1.0)
+  - ShiftOperations (1.0.2)
+  - SVProgressHUD (2.2.5)
+  - SwiftLint (0.27.0)
+  - Threadly (1.2.0)
+  - Timepiece (1.3.1)
+
+DEPENDENCIES:
+  - Cartography (~> 3.0)
+  - ChameleonFramework/Swift (from `https://github.com/ViccAlexander/Chameleon.git`)
+  - Kingfisher
+  - RandomKit (~> 5.2.3)
+  - SVProgressHUD
+  - SwiftLint
+  - Timepiece
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Cartography
+    - Kingfisher
+    - RandomKit
+    - ShiftOperations
+    - SVProgressHUD
+    - SwiftLint
+    - Threadly
+    - Timepiece
+
+EXTERNAL SOURCES:
+  ChameleonFramework:
+    :git: https://github.com/ViccAlexander/Chameleon.git
+
+CHECKOUT OPTIONS:
+  ChameleonFramework:
+    :commit: 6dd284bde21ea2e7f9fd89bc36f40df16e16369d
+    :git: https://github.com/ViccAlexander/Chameleon.git
+
+SPEC CHECKSUMS:
+  Cartography: 1988b7578871a56c036e7af17195cb2190edf18c
+  ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  Kingfisher: 43c4b802d8b5256cf1f4379e9cd10b329be6d3e2
+  RandomKit: 380745911c4f7989707489b2ce297194bfcf5031
+  ShiftOperations: 702c9aa98d3b20d98dceb71dd8437b562f7ab3ad
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftLint: 3207c1faa2240bf8973b191820a116113cd11073
+  Threadly: b772ed7c1ff4a3f03eb4600bbc5ef83b3be5cb29
+  Timepiece: c0760ec0e545697d86b80424dcd2b4d5ef66cf51
+
+PODFILE CHECKSUM: 7c84a6500a506be32363e27a80767ab804971ecd
+
+COCOAPODS: 1.5.3
