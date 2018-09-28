@@ -16,7 +16,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         let url = URL(string: "https://picsum.photos/200/300/?random")
         imageView.kf.setImage(with: url)
-        imageView.backgroundColor = UIColor.red				
+        imageView.backgroundColor = UIColor.red
+        imageView.contentMode = .scaleAspectFit
     }
 
 }

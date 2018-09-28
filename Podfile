@@ -1,7 +1,7 @@
 platform :ios, '10.0'
 
 
-swift_32 = ['RandomKit'] # if these pods are in Swift 3.2
+swift_32 = [] # if these pods are in Swift 3.2
 swift4 = [] # if these pods are in Swift 4
 # swift4 = ['SwiftLint', 'Kingfisher', 'RandomKit', 'Timepiece'] # if these pods are in Swift 4
 
@@ -12,7 +12,6 @@ target 'HaloApp' do
   pod 'SwiftLint'
  	pod 'SVProgressHUD'
  	# pod 'FileKit'
- 	pod 'RandomKit', '~> 5.2.3'
  	pod 'Timepiece'
  	# pod 'Hero'
  	# pod 'Onboard'
