@@ -145,14 +145,26 @@ strip_invalid_archs() {
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Cartography/Cartography.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/FileKit/FileKit.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Hero/Hero.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/IGListKit/IGListKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Onboard/Onboard.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Realm/Realm.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Timepiece/Timepiece.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Cartography/Cartography.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/FileKit/FileKit.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Hero/Hero.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/IGListKit/IGListKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Onboard/Onboard.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Realm/Realm.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Timepiece/Timepiece.framework"
 fi

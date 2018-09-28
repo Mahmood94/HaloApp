@@ -9,12 +9,14 @@ target 'HaloApp' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
   # Pods for HaloApp
+  pod 'RealmSwift'
+  pod 'IGListKit', '~> 3.0'
   pod 'SwiftLint'
  	pod 'SVProgressHUD'
- 	# pod 'FileKit'
+ 	pod 'FileKit', '~> 5.0.0'
  	pod 'Timepiece'
- 	# pod 'Hero'
- 	# pod 'Onboard'
+ 	pod 'Hero'
+ 	pod 'Onboard'
  	pod 'Kingfisher'
   pod 'ChameleonFramework/Swift', :git => 'https://github.com/ViccAlexander/Chameleon.git'
   pod 'Cartography', '~> 3.0'

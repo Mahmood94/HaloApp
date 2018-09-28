@@ -238,6 +238,7 @@
 				TargetAttributes = {
 					F0076AB2215B2C4300E4CF8B = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
 					};
 					F0076AC6215B2C4400E4CF8B = {
 						CreatedOnToolsVersion = 10.0;
@@ -374,7 +375,13 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-HaloApp/Pods-HaloApp-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Cartography/Cartography.framework",
 				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/FileKit/FileKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Hero/Hero.framework",
+				"${BUILT_PRODUCTS_DIR}/IGListKit/IGListKit.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/Onboard/Onboard.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/Timepiece/Timepiece.framework",
 			);
@@ -384,7 +391,13 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cartography.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FileKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hero.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IGListKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Onboard.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Timepiece.framework",
 			);

@@ -14,7 +14,27 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>FileKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Hero.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>IGListKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Kingfisher.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Onboard.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -30,6 +50,16 @@
 			<false/>
 		</dict>
 		<key>Pods-HaloAppUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Realm.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>RealmSwift.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
