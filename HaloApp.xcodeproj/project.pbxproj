@@ -16,6 +16,11 @@
 		F0076AC1215B2C4400E4CF8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0076ABF215B2C4400E4CF8B /* LaunchScreen.storyboard */; };
 		F0076ACC215B2C4400E4CF8B /* HaloAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0076ACB215B2C4400E4CF8B /* HaloAppTests.swift */; };
 		F0076AD7215B2C4400E4CF8B /* HaloAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0076AD6215B2C4400E4CF8B /* HaloAppUITests.swift */; };
+		F0340EAA215E708900EA9E5E /* ImageObj.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0340EA9215E708900EA9E5E /* ImageObj.swift */; };
+		F0340EAC215E7A9600EA9E5E /* ImageList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0340EAB215E7A9600EA9E5E /* ImageList.swift */; };
+		F062B4D8215E72380088A2C9 /* ImageSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F062B4D7215E72380088A2C9 /* ImageSectionController.swift */; };
+		F062B4DB215E728A0088A2C9 /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F062B4DA215E728A0088A2C9 /* ImageCell.swift */; };
+		F062B4DD215E72950088A2C9 /* ImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F062B4DC215E72950088A2C9 /* ImageCell.xib */; };
 		FF094C406FAA19E8939EFDE8 /* Pods_HaloApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEE2EE37B14D6CFF843BA2B3 /* Pods_HaloApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +63,11 @@
 		F0076AD2215B2C4400E4CF8B /* HaloAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HaloAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0076AD6215B2C4400E4CF8B /* HaloAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaloAppUITests.swift; sourceTree = "<group>"; };
 		F0076AD8215B2C4400E4CF8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0340EA9215E708900EA9E5E /* ImageObj.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageObj.swift; sourceTree = "<group>"; };
+		F0340EAB215E7A9600EA9E5E /* ImageList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageList.swift; sourceTree = "<group>"; };
+		F062B4D7215E72380088A2C9 /* ImageSectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSectionController.swift; sourceTree = "<group>"; };
+		F062B4DA215E728A0088A2C9 /* ImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
+		F062B4DC215E72950088A2C9 /* ImageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageCell.xib; sourceTree = "<group>"; };
 		F47904E59B64C707A5FE9228 /* Pods-HaloApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HaloApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HaloApp/Pods-HaloApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -138,10 +148,12 @@
 			isa = PBXGroup;
 			children = (
 				F0076AB6215B2C4300E4CF8B /* AppDelegate.swift */,
-				F0076AB8215B2C4300E4CF8B /* ViewController.swift */,
-				F0076ABA215B2C4300E4CF8B /* Main.storyboard */,
+				F062B4D4215E23320088A2C9 /* Stroyboards */,
+				F062B4D5215E23CA0088A2C9 /* Models */,
+				F062B4D3215E231A0088A2C9 /* Controllers */,
+				F062B4D6215E71960088A2C9 /* Section Controllers */,
+				F062B4D9215E72730088A2C9 /* Custom Views */,
 				F0076ABD215B2C4400E4CF8B /* Assets.xcassets */,
-				F0076ABF215B2C4400E4CF8B /* LaunchScreen.storyboard */,
 				F0076AC2215B2C4400E4CF8B /* Info.plist */,
 			);
 			path = HaloApp;
@@ -163,6 +175,49 @@
 				F0076AD8215B2C4400E4CF8B /* Info.plist */,
 			);
 			path = HaloAppUITests;
+			sourceTree = "<group>";
+		};
+		F062B4D3215E231A0088A2C9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F0076AB8215B2C4300E4CF8B /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F062B4D4215E23320088A2C9 /* Stroyboards */ = {
+			isa = PBXGroup;
+			children = (
+				F0076ABA215B2C4300E4CF8B /* Main.storyboard */,
+				F0076ABF215B2C4400E4CF8B /* LaunchScreen.storyboard */,
+			);
+			path = Stroyboards;
+			sourceTree = "<group>";
+		};
+		F062B4D5215E23CA0088A2C9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F0340EA9215E708900EA9E5E /* ImageObj.swift */,
+				F0340EAB215E7A9600EA9E5E /* ImageList.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F062B4D6215E71960088A2C9 /* Section Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F062B4D7215E72380088A2C9 /* ImageSectionController.swift */,
+			);
+			path = "Section Controllers";
+			sourceTree = "<group>";
+		};
+		F062B4D9215E72730088A2C9 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				F062B4DA215E728A0088A2C9 /* ImageCell.swift */,
+				F062B4DC215E72950088A2C9 /* ImageCell.xib */,
+			);
+			path = "Custom Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,6 +331,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0076AC1215B2C4400E4CF8B /* LaunchScreen.storyboard in Resources */,
+				F062B4DD215E72950088A2C9 /* ImageCell.xib in Resources */,
 				F0076ABE215B2C4400E4CF8B /* Assets.xcassets in Resources */,
 				F0076ABC215B2C4300E4CF8B /* Main.storyboard in Resources */,
 			);
@@ -432,6 +488,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0076AB9215B2C4300E4CF8B /* ViewController.swift in Sources */,
+				F062B4DB215E728A0088A2C9 /* ImageCell.swift in Sources */,
+				F062B4D8215E72380088A2C9 /* ImageSectionController.swift in Sources */,
+				F0340EAC215E7A9600EA9E5E /* ImageList.swift in Sources */,
+				F0340EAA215E708900EA9E5E /* ImageObj.swift in Sources */,
 				F0076AB7215B2C4300E4CF8B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
