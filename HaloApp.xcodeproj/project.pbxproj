@@ -147,14 +147,12 @@
 		F0076AB5215B2C4300E4CF8B /* HaloApp */ = {
 			isa = PBXGroup;
 			children = (
-				F0076AB6215B2C4300E4CF8B /* AppDelegate.swift */,
+				F08137442168B7780069A7CF /* Application */,
 				F062B4D4215E23320088A2C9 /* Stroyboards */,
 				F062B4D5215E23CA0088A2C9 /* Models */,
 				F062B4D3215E231A0088A2C9 /* Controllers */,
 				F062B4D6215E71960088A2C9 /* Section Controllers */,
 				F062B4D9215E72730088A2C9 /* Custom Views */,
-				F0076ABD215B2C4400E4CF8B /* Assets.xcassets */,
-				F0076AC2215B2C4400E4CF8B /* Info.plist */,
 			);
 			path = HaloApp;
 			sourceTree = "<group>";
@@ -218,6 +216,16 @@
 				F062B4DC215E72950088A2C9 /* ImageCell.xib */,
 			);
 			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		F08137442168B7780069A7CF /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				F0076AB6215B2C4300E4CF8B /* AppDelegate.swift */,
+				F0076ABD215B2C4400E4CF8B /* Assets.xcassets */,
+				F0076AC2215B2C4400E4CF8B /* Info.plist */,
+			);
+			path = Application;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

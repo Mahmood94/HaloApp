@@ -25,14 +25,14 @@ final class ImageSectionController: ListSectionController, ListDisplayDelegate {
     }
     
     override func sizeForItem(at index: Int) -> CGSize {
-        guard let imageList = self.imageList else { return CGSize.zero }
+        guard let _ = self.imageList else { return CGSize.zero }
         return CGSize(width: collectionContext!.containerSize.width/3, height: CGFloat.random(in: 100...250))
     }
     
     override func cellForItem(at index: Int) -> UICollectionViewCell {
-        guard let imageList = self.imageList else { fatalError() }
+        guard let context = collectionContext, let imageList = self.imageList else { fatalError() }
         
-        guard let cell = collectionContext?.dequeueReusableCell(withNibName: "ImageCell", bundle: nil, for: self, at: index) as? ImageCell else {
+        guard let cell = context.dequeueReusableCell(withNibName: "ImageCell", bundle: nil, for: self, at: index) as? ImageCell else {
             fatalError()
         }
         cell.imageObj = imageList[index]
@@ -42,25 +42,25 @@ final class ImageSectionController: ListSectionController, ListDisplayDelegate {
     // MARK: ListDisplayDelegate
     
     func listAdapter(_ listAdapter: ListAdapter, willDisplay sectionController: ListSectionController) {
-        print("Will display section \(self.section)")
+//        print("Will display section \(self.section)")
     }
     
     func listAdapter(_ listAdapter: ListAdapter,
                      willDisplay sectionController: ListSectionController,
                      cell: UICollectionViewCell,
                      at index: Int) {
-        print("Did will display cell \(index) in section \(self.section)")
+//        print("Did will display cell \(index) in section \(self.section)")
     }
     
     func listAdapter(_ listAdapter: ListAdapter, didEndDisplaying sectionController: ListSectionController) {
-        print("Did end displaying section \(self.section)")
+//        print("Did end displaying section \(self.section)")
     }
     
     func listAdapter(_ listAdapter: ListAdapter,
                      didEndDisplaying sectionController: ListSectionController,
                      cell: UICollectionViewCell,
                      at index: Int) {
-        print("Did end displaying cell \(index) in section \(self.section)")
+//        print("Did end displaying cell \(index) in section \(self.section)")
     }
     
     override func didUpdate(to object: Any) {

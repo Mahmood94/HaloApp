@@ -5,8 +5,6 @@
 //  Created by Mahmood Al-haddad on 9/28/18.
 //  Copyright © 2018 Mahmood Al-haddad. All rights reserved.
 //
-
-
 import IGListKit
 
 final class ImageList: ListDiffable {
@@ -26,5 +24,3 @@ final class ImageList: ListDiffable {
     }
     
 }
-
-
