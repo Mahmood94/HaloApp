@@ -10,17 +10,26 @@
 		004C75D807414717AE851C3A /* Pods_HaloAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19D1121135962104FDEA8A10 /* Pods_HaloAppTests.framework */; };
 		B577CDD4C9E5703B0AB1FDED /* Pods_HaloAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F6D7EEC56E83576F9AA88FC /* Pods_HaloAppUITests.framework */; };
 		F0076AB7215B2C4300E4CF8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0076AB6215B2C4300E4CF8B /* AppDelegate.swift */; };
-		F0076AB9215B2C4300E4CF8B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0076AB8215B2C4300E4CF8B /* ViewController.swift */; };
+		F0076AB9215B2C4300E4CF8B /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0076AB8215B2C4300E4CF8B /* ImageViewController.swift */; };
 		F0076ABC215B2C4300E4CF8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0076ABA215B2C4300E4CF8B /* Main.storyboard */; };
 		F0076ABE215B2C4400E4CF8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0076ABD215B2C4400E4CF8B /* Assets.xcassets */; };
 		F0076AC1215B2C4400E4CF8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0076ABF215B2C4400E4CF8B /* LaunchScreen.storyboard */; };
 		F0076ACC215B2C4400E4CF8B /* HaloAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0076ACB215B2C4400E4CF8B /* HaloAppTests.swift */; };
 		F0076AD7215B2C4400E4CF8B /* HaloAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0076AD6215B2C4400E4CF8B /* HaloAppUITests.swift */; };
 		F0340EAA215E708900EA9E5E /* ImageObj.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0340EA9215E708900EA9E5E /* ImageObj.swift */; };
-		F0340EAC215E7A9600EA9E5E /* ImageList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0340EAB215E7A9600EA9E5E /* ImageList.swift */; };
+		F0340EAC215E7A9600EA9E5E /* DiffableList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0340EAB215E7A9600EA9E5E /* DiffableList.swift */; };
 		F062B4D8215E72380088A2C9 /* ImageSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F062B4D7215E72380088A2C9 /* ImageSectionController.swift */; };
 		F062B4DB215E728A0088A2C9 /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F062B4DA215E728A0088A2C9 /* ImageCell.swift */; };
 		F062B4DD215E72950088A2C9 /* ImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F062B4DC215E72950088A2C9 /* ImageCell.xib */; };
+		F08137472168D5300069A7CF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08137462168D5300069A7CF /* Constants.swift */; };
+		F081374A2168E4140069A7CF /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08137492168E4140069A7CF /* Item.swift */; };
+		F081374C2168E47C0069A7CF /* ItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F081374B2168E47C0069A7CF /* ItemsViewController.swift */; };
+		F081374E216910AF0069A7CF /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F081374D216910AF0069A7CF /* MenuViewController.swift */; };
+		F0813750216924360069A7CF /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F081374F216924360069A7CF /* MenuItem.swift */; };
+		F0813752216927CD0069A7CF /* MenuSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0813751216927CD0069A7CF /* MenuSectionController.swift */; };
+		F0813754216D29E20069A7CF /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0813753216D29E20069A7CF /* Protocols.swift */; };
+		F0813756216E6EDE0069A7CF /* RealmHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0813755216E6EDE0069A7CF /* RealmHelper.swift */; };
+		F0813758216E798F0069A7CF /* UIHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0813757216E798F0069A7CF /* UIHelpers.swift */; };
 		FF094C406FAA19E8939EFDE8 /* Pods_HaloApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEE2EE37B14D6CFF843BA2B3 /* Pods_HaloApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -52,7 +61,7 @@
 		DEE2EE37B14D6CFF843BA2B3 /* Pods_HaloApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HaloApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0076AB3215B2C4300E4CF8B /* HaloApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HaloApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0076AB6215B2C4300E4CF8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F0076AB8215B2C4300E4CF8B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F0076AB8215B2C4300E4CF8B /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 		F0076ABB215B2C4300E4CF8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F0076ABD215B2C4400E4CF8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F0076AC0215B2C4400E4CF8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -64,10 +73,19 @@
 		F0076AD6215B2C4400E4CF8B /* HaloAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaloAppUITests.swift; sourceTree = "<group>"; };
 		F0076AD8215B2C4400E4CF8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F0340EA9215E708900EA9E5E /* ImageObj.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageObj.swift; sourceTree = "<group>"; };
-		F0340EAB215E7A9600EA9E5E /* ImageList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageList.swift; sourceTree = "<group>"; };
+		F0340EAB215E7A9600EA9E5E /* DiffableList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiffableList.swift; sourceTree = "<group>"; };
 		F062B4D7215E72380088A2C9 /* ImageSectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSectionController.swift; sourceTree = "<group>"; };
 		F062B4DA215E728A0088A2C9 /* ImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
 		F062B4DC215E72950088A2C9 /* ImageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageCell.xib; sourceTree = "<group>"; };
+		F08137462168D5300069A7CF /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F08137492168E4140069A7CF /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		F081374B2168E47C0069A7CF /* ItemsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsViewController.swift; sourceTree = "<group>"; };
+		F081374D216910AF0069A7CF /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		F081374F216924360069A7CF /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		F0813751216927CD0069A7CF /* MenuSectionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuSectionController.swift; sourceTree = "<group>"; };
+		F0813753216D29E20069A7CF /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		F0813755216E6EDE0069A7CF /* RealmHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmHelper.swift; sourceTree = "<group>"; };
+		F0813757216E798F0069A7CF /* UIHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelpers.swift; sourceTree = "<group>"; };
 		F47904E59B64C707A5FE9228 /* Pods-HaloApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HaloApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HaloApp/Pods-HaloApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -149,10 +167,12 @@
 			children = (
 				F08137442168B7780069A7CF /* Application */,
 				F062B4D4215E23320088A2C9 /* Stroyboards */,
+				F08137482168E3F70069A7CF /* Realm Models */,
 				F062B4D5215E23CA0088A2C9 /* Models */,
 				F062B4D3215E231A0088A2C9 /* Controllers */,
 				F062B4D6215E71960088A2C9 /* Section Controllers */,
 				F062B4D9215E72730088A2C9 /* Custom Views */,
+				F08137452168D5130069A7CF /* Helpers */,
 			);
 			path = HaloApp;
 			sourceTree = "<group>";
@@ -178,7 +198,9 @@
 		F062B4D3215E231A0088A2C9 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				F0076AB8215B2C4300E4CF8B /* ViewController.swift */,
+				F0076AB8215B2C4300E4CF8B /* ImageViewController.swift */,
+				F081374B2168E47C0069A7CF /* ItemsViewController.swift */,
+				F081374D216910AF0069A7CF /* MenuViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -196,7 +218,8 @@
 			isa = PBXGroup;
 			children = (
 				F0340EA9215E708900EA9E5E /* ImageObj.swift */,
-				F0340EAB215E7A9600EA9E5E /* ImageList.swift */,
+				F0340EAB215E7A9600EA9E5E /* DiffableList.swift */,
+				F081374F216924360069A7CF /* MenuItem.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -204,6 +227,7 @@
 		F062B4D6215E71960088A2C9 /* Section Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				F0813751216927CD0069A7CF /* MenuSectionController.swift */,
 				F062B4D7215E72380088A2C9 /* ImageSectionController.swift */,
 			);
 			path = "Section Controllers";
@@ -226,6 +250,25 @@
 				F0076AC2215B2C4400E4CF8B /* Info.plist */,
 			);
 			path = Application;
+			sourceTree = "<group>";
+		};
+		F08137452168D5130069A7CF /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F08137462168D5300069A7CF /* Constants.swift */,
+				F0813753216D29E20069A7CF /* Protocols.swift */,
+				F0813755216E6EDE0069A7CF /* RealmHelper.swift */,
+				F0813757216E798F0069A7CF /* UIHelpers.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		F08137482168E3F70069A7CF /* Realm Models */ = {
+			isa = PBXGroup;
+			children = (
+				F08137492168E4140069A7CF /* Item.swift */,
+			);
+			path = "Realm Models";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -495,10 +538,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0076AB9215B2C4300E4CF8B /* ViewController.swift in Sources */,
+				F0076AB9215B2C4300E4CF8B /* ImageViewController.swift in Sources */,
+				F081374E216910AF0069A7CF /* MenuViewController.swift in Sources */,
 				F062B4DB215E728A0088A2C9 /* ImageCell.swift in Sources */,
 				F062B4D8215E72380088A2C9 /* ImageSectionController.swift in Sources */,
-				F0340EAC215E7A9600EA9E5E /* ImageList.swift in Sources */,
+				F0813752216927CD0069A7CF /* MenuSectionController.swift in Sources */,
+				F0340EAC215E7A9600EA9E5E /* DiffableList.swift in Sources */,
+				F0813758216E798F0069A7CF /* UIHelpers.swift in Sources */,
+				F081374C2168E47C0069A7CF /* ItemsViewController.swift in Sources */,
+				F081374A2168E4140069A7CF /* Item.swift in Sources */,
+				F08137472168D5300069A7CF /* Constants.swift in Sources */,
+				F0813754216D29E20069A7CF /* Protocols.swift in Sources */,
+				F0813750216924360069A7CF /* MenuItem.swift in Sources */,
+				F0813756216E6EDE0069A7CF /* RealmHelper.swift in Sources */,
 				F0340EAA215E708900EA9E5E /* ImageObj.swift in Sources */,
 				F0076AB7215B2C4300E4CF8B /* AppDelegate.swift in Sources */,
 			);
@@ -681,7 +733,7 @@
 				"DEBUG_INFORMATION_FORMAT[sdk=iphoneos*]" = "dwarf-with-dsym";
 				"DEBUG_INFORMATION_FORMAT[sdk=iphonesimulator*]" = dwarf;
 				DEVELOPMENT_TEAM = F2CTZMZ6BW;
-				INFOPLIST_FILE = HaloApp/Info.plist;
+				INFOPLIST_FILE = HaloApp/Application/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -703,7 +755,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F2CTZMZ6BW;
-				INFOPLIST_FILE = HaloApp/Info.plist;
+				INFOPLIST_FILE = HaloApp/Application/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

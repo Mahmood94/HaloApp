@@ -9,8 +9,10 @@
 import UIKit
 import Kingfisher
 import IGListKit
+import Realm
+import RealmSwift
 
-class ViewController: UIViewController, ListAdapterDataSource {
+class ImageViewController: UIViewController, ListAdapterDataSource {
 
     @IBOutlet weak var imageView: UIImageView!
     
@@ -19,6 +21,10 @@ class ViewController: UIViewController, ListAdapterDataSource {
     }()
     
     @IBOutlet weak var collectionView: UICollectionView!
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -35,12 +41,12 @@ class ViewController: UIViewController, ListAdapterDataSource {
     // MARK: ListAdapterDataSource
     
     func objects(for listAdapter: ListAdapter) -> [ListDiffable] {
-        let imageList = ImageList()
+        let objects = DiffableList()
         for imageId in 1...20 {
             let imageObj = ImageObj(id: imageId, image: "https://picsum.photos/200/300/?random")
-            imageList.images.append(imageObj)
+            objects.objectList.append(imageObj)
         }
-        return [imageList]
+        return [objects]
     }
     
     func listAdapter(_ listAdapter: ListAdapter, sectionControllerFor object: Any) -> ListSectionController {

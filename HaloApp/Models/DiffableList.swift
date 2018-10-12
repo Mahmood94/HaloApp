@@ -7,20 +7,20 @@
 //
 import IGListKit
 
-final class ImageList: ListDiffable {
+final class DiffableList: ListDiffable {
     
-    var images: [ImageObj] = []
+    var objectList: [ListDiffable] = []
     
     // MARK: ListDiffable
     
     func diffIdentifier() -> NSObjectProtocol {
-        return images as NSObjectProtocol
+        return objectList as NSObjectProtocol
     }
     
     func isEqual(toDiffableObject object: ListDiffable?) -> Bool {
         guard self !== object else { return true }
-        guard let object = object as? ImageList else { return false }
-        return images.count == object.images.count
+        guard let object = object as? DiffableList else { return false }
+        return objectList.count == object.objectList.count
     }
     
 }

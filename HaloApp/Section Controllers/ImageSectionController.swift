@@ -64,8 +64,8 @@ final class ImageSectionController: ListSectionController, ListDisplayDelegate {
     }
     
     override func didUpdate(to object: Any) {
-        guard let imageList = object as? ImageList else { return }
-        self.imageList = imageList.images
+        guard let objects = object as? DiffableList else { return }
+        self.imageList = objects.objectList as? [ImageObj]
     }
 
 }
